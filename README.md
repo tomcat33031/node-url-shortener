@@ -26,10 +26,10 @@ A NodeJs server that allows you to run a simple URL shortening services
 First, install some prerequisites:
 
 - NodeJs and npm.
-    - You should use NodeJs >= v0.10.29 && < v0.11.x
+    - You should use NodeJs >= v0.10.29
     - Follow [instructions here](http://nodejs.org/).
 - Redis.
-    - You should use Redis >= v2.8.16 && < 3.0.x
+    - You should use Redis >= v2.8.16
     - Follow [instructions here](http://redis.io/download).
 - OpenSSL.
     - Should be preloaded on most systems, otherwise, follow [instructions here](https://www.openssl.org/related/binaries.html).
