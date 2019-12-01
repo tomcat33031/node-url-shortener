@@ -1,0 +1,24 @@
+{
+  "name": "urlshortify",
+  "private": true,
+  "version": "1.0.0",
+  "description": "URL shortener",
+  "main": "urlshortify.js",
+  "dependencies": {
+    "hashids": "^1.0.0",
+    "jade": "^1.6.0",
+    "proxy-addr": "^1.0.1",
+    "redis": "^0.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "url",
+    "shortener"
+  ],
+  "author": "tomcat33031",
+  "license": "Copyright 2014 Andy Nguyen"
+}

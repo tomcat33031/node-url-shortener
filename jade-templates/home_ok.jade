@@ -1,0 +1,15 @@
+doctype html
+html(lang="en")
+  head
+    title #{title}
+  body
+    h1 URL shortener
+    #container.num
+      if num
+        p Number of URLs shortened #{num}
+      else
+        p Don't know how many URLs have been shortened
+    #container.new
+      form(method='GET', name='add', action='/new')
+        input(type='url', name='url')
+        input(type='submit', name='Shorten!')

@@ -1,0 +1,11 @@
+doctype html
+html(lang="en")
+  head
+    title #{title}
+  body
+    h1 URL shortener
+    #container.long-url
+      span Here is your short URL for&nbsp;
+      a(href=longUrl) #{longUrl}
+    #container.short-url
+      a(href=shortUrl) #{shortUrl}
